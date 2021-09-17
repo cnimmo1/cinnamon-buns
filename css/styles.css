@@ -1,0 +1,190 @@
+/* Created by http://freehtml5templates.com */
+
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+	display: block;
+}
+
+body {
+	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+	color: #666;
+	font-size: 1.6rem;
+}
+
+/* layout */
+
+nav {
+	width: 96rem;
+	margin: 0 auto;
+	background: #431F10;
+	display:  flex;
+	justify-content: space-around;
+}
+
+header {
+	width: 96rem;
+	height: 30rem;
+	margin: 0 auto;
+}
+
+main {
+	width: 96rem;
+	margin: 0 auto;
+	padding: 2rem 0;
+	background: #FFFff7;
+	overflow: hidden;
+	display:  flex;
+	justify-content: space-between;
+}
+
+.content {
+	margin: 1rem 3rem;
+}
+
+.sidebar {
+	width: 20rem;
+}
+
+footer {
+	width: 90rem;
+	margin: 0 auto;
+	padding: 2rem;
+	clear: both;
+	background: #431F10;
+	color: #fffff0;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+/* basics */
+
+a:link, a:visited {
+	color: #391306;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #391306;
+	text-decoration: underline;
+}
+
+li {
+	padding-left: .5rem;
+}
+
+/* nav */
+
+nav .menu {
+	font-size: 1.2rem;
+}
+
+nav ul {
+	margin: 0;
+	padding: 1rem 0;
+	list-style: none;
+}
+
+nav .menu li {
+	display: inline-block;
+	border-left: 1px solid #fffff0;
+	line-height: 3;
+}
+
+nav .menu li:first-of-type {
+	border-left: none;
+}
+nav .menu a {
+	display: block;
+	padding: 0 1.5rem;
+	text-decoration: none;
+	color: #fffff0;
+	font-weight: 600;
+}
+
+nav .menu a:hover {
+	border-bottom: 1px solid #B3B3A0;
+}
+
+
+/** HEADER */
+
+/** ARTICLES **/
+
+article {
+	margin: 0;
+}
+
+article img {
+	border: none;
+}
+
+.content p, ul, ol, hr, .card {
+	margin-bottom: 2.4rem;
+}
+
+h1, h2, h3{
+	color: #431F10;
+	margin: 0 0 20px 0;
+	font-family: 'Courgette', cursive;
+}
+
+h1 {
+	font-size: 30px;	
+	width: 100%;
+}
+
+.card-set {
+	display: inline-flex;
+	justify-content: space-between;
+}
+.card {
+	width: 25%;
+	justify-items: center;
+	text-align: center;
+	border: 1px solid #431F10;
+	border-radius: 5px;
+	padding: 2rem;
+	background: #F1CED4;
+}
+
+/* sidebar and footer widget blocks */
+
+.asidebox {
+	width: 16rem;
+	padding: 2rem;
+	margin-bottom: 3rem;
+	font-size: 1.2rem;
+	border-radius: 2px;
+	background: #F9CCD3;
+	border: 2px solid #666;
+}
+
+aside h3 {
+	font-size: 2.2rem;
+	margin-bottom: 2rem;
+	color: #431F10;
+
+}
+
+aside img {
+	width: 16rem;
+}
+
+@media only and screen (min-width: 960px){
+	.wrapper {
+		width: 96rem;
+		margin: 0 auto;
+	}
+}
+
+
