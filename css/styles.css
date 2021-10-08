@@ -180,6 +180,10 @@ aside img {
 	width: 16rem;
 }
 
+.icon {
+	width: 2rem;
+}
+
 @media only and screen (min-width: 960px){
 	.wrapper {
 		width: 96rem;
