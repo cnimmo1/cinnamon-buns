@@ -180,8 +180,18 @@ aside img {
 	width: 16rem;
 }
 
+.footer-links {
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
 .icon {
-	width: 2rem;
+	width: 0.5rem;
+}
+
+.footer-links li a {
+	color: snow;
 }
 
 @media only and screen (min-width: 960px){
