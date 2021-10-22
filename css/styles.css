@@ -119,7 +119,7 @@ nav .menu a:hover {
 }
 
 
-/** HEADER */
+
 
 /** ARTICLES **/
 
@@ -147,17 +147,55 @@ h1 {
 }
 
 .card-set {
-	display: inline-flex;
-	justify-content: space-between;
+	/*display: inline-flex;*/
+	/*justify-content: space-between;*/
+	/*display: flex;*/
+	gap: 3rem;
 }
 .card {
-	width: 25%;
-	justify-items: center;
-	text-align: center;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-content: center;
 	border: 1px solid #431F10;
 	border-radius: 5px;
 	padding: 2rem;
 	background: #F1CED4;
+}
+
+.card-content {
+	
+	width: 70%;
+}
+.card > a {
+	height: 100%;
+	width: auto;
+	align-self: center;
+}
+
+.find-us-btn {
+	/*display: block;*/
+	line-height: 3rem;
+	padding: 1rem;
+	background-color: #C6761F;
+}
+.find-us-btn:hover {
+	background-color: #391306;
+	color: #C6761F;
+}
+ul.contact-links {
+	list-style-type: none;
+	border-left: 2px solid #391306;
+	padding: 0.5rem;
+}
+
+ul.contact-links li {
+	display: block;
+	padding: 1rem;
+}
+
+i {
+	margin-right: .75rem;
 }
 
 /* sidebar and footer widget blocks */
@@ -215,11 +253,9 @@ li.icon a img {
 	color: snow;
 }
 
-@media only and screen (min-width: 960px){
+@media screen and (min-width: 960px) {
 	.wrapper {
 		width: 96rem;
 		margin: 0 auto;
 	}
 }
-
-
