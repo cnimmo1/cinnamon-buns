@@ -198,6 +198,9 @@ i {
 	margin-right: .75rem;
 }
 
+figure {
+	width: 25%;
+}
 /* sidebar and footer widget blocks */
 
 .asidebox {
