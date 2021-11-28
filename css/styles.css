@@ -198,8 +198,10 @@ i {
 	margin-right: .75rem;
 }
 
-figure {
-	width: 25%;
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
 }
 /* sidebar and footer widget blocks */
 
