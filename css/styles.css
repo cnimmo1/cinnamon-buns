@@ -139,6 +139,7 @@ h1, h2, h3{
 	color: #431F10;
 	margin: 0 0 20px 0;
 	font-family: 'Courgette', cursive;
+	text-transform: capitalize;
 }
 
 h1 {
